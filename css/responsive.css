@@ -1,12 +1,16 @@
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 767px) {
     html {
         font-size: 14px;
     }
-    
+
+    .main-container {
+        flex-wrap: wrap;
+    }
+
     .quant-options {
         flex-wrap: wrap;
     }
-    
+
     .quant-addition {
         flex-wrap: wrap;
         justify-content: flex-start;

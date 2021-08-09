@@ -4,13 +4,16 @@
     transition: all 0.5s;
 }
 
+html {
+    font-size: 1vw;
+}
+
 a {
     text-decoration: none;
 }
 
 .main-container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
