@@ -1,7 +1,7 @@
 async function additionPrac() {
     let totalQues = 10;
     let timePerQues = [];
-    let numLen = 2;
+    let numLen = 1;
     let numShow = 3;
     let isInteger = true;
     let numDeci = 2;
@@ -22,11 +22,11 @@ async function additionPrac() {
         for (let j = 0; j < numShow; j++) {
             let randNum;
             if (isInteger) {
-                randNum = randInt(1, (10**numLen)-1);
+                randNum = randInt(10**(numLen-1), (10**numLen)-1);
                 sum += randNum;
             }
             else {
-                randNum = randFloat(1, (10**numLen)-1, numDeci);
+                randNum = randFloat(10**(numLen-1), (10**numLen)-1, numDeci);
                 sum += randNum;
             }
 
@@ -64,7 +64,7 @@ async function additionPrac() {
 
     let avgTime = sumList(timePerQues) / totalQues;
 
-    quesDiv.innerHTML = `Average time: ${avgTime.toFixed(2)} seconds`;
+    quesDiv.innerHTML = `<h3>Average time: ${avgTime.toFixed(2)} seconds</h3>`;
 
 }
 
