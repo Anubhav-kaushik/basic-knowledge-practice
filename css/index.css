@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: all 0.5s;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: white;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 1em;
+    width: 200px;
+    height: 200px;
+    color: blueviolet;
+}
+
+.card h2 {
+    font-size: 2rem;
+    text-align: center;
+    
+}
+
+.card:hover {
+    border: 2px solid #333;
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+.showQues {
+    font-size: 5rem;
+}
+
+
