@@ -31,15 +31,15 @@ multiplyCard.addEventListener('click', function() {
     quantMultiply.classList.toggle('hide');
 });
 
-memoryCard.addEventListener('click', function() {
-    quantOptions.classList.toggle('hide');
-    quantMemory.classList.toggle('hide');
-});
+// memoryCard.addEventListener('click', function() {
+//     quantOptions.classList.toggle('hide');
+//     quantMemory.classList.toggle('hide');
+// });
 
-divisionCard.addEventListener('click', function() {
-    quantOptions.classList.toggle('hide');
-    quantDivision.classList.toggle('hide');
-});
+// divisionCard.addEventListener('click', function() {
+//     quantOptions.classList.toggle('hide');
+//     quantDivision.classList.toggle('hide');
+// });
 
 hint.addEventListener('click', function() {
     hintBlock.classList.toggle('hide');
