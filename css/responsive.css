@@ -2,6 +2,11 @@
     html {
         font-size: 14px;
     }
+    
+    .quant-options {
+        flex-wrap: wrap;
+    }
+    
     .quant-addition {
         flex-wrap: wrap;
         justify-content: flex-start;
